@@ -1,5 +1,5 @@
 # Ezra Arez Ráez
-
+![](http://i.imgur.com/8lCNXW9.jpg)
 ## Web Developer
 
 _Hello!_
