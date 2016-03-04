@@ -20,13 +20,14 @@ General Assembly's Web Development Immersive Course in Downtown Los Angeles.
 - HTML/CSS
 - JQuery
 - Ruby on Rails
-- Sequel and SQL Databases, such as PostgreSQL
+- SQL
+- PostgreSQL
 
 
 ##### And I am currently learning:
 
 - Haskell
-- ClojureScript
-- Angular2
+- Clojure
 
 #### Please view my [website](https://earnagram.github.io/) for more details.
+##### Not yet available - too busy writing [lessons](https://github.com/EARnagram/lessons) for my students!
