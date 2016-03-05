@@ -18,6 +18,8 @@
   ],
   "dependencies": {
     "particles.js": "^2.0.0",
-    "semantic": "semantic-ui#~2.1.6"
+    "semantic": "semantic-ui#^2.1.8",
+    "jquery": "^2.2.1",
+    "lodash": "^4.6.1"
   }
 }
