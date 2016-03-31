@@ -1,19 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="ezra">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>EZRAEZ</title>
 
-    <link rel="stylesheet" type="text/css" href="bower_compnonets/semantic/dist/semantic.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/lodash/dist/lodash.min.js"></script>
-    <script src="bower_compnonets/semantic/dist/semantic.js"></script>
+    <link rel="stylesheet" type="text/css" href="/bower_components/semantic/dist/semantic.min.css">
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/lodash/dist/lodash.min.js"></script>
+    <script src="/bower_components/semantic/dist/semantic.min.js"></script>
+    <script src="/bower_components/particles.js/particles.js"></script>
+    <script src="/bower_components/angular/angular.min.js"></script>
+    <script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+    <script src="/assets/js/particle_config.js"></script>
+    <link rel="stylesheet" href="/assets/css/style.css">
 
   </head>
   <body>
 
+    <div class="ui sidebar red four inverted visible secondary vertical pointing fixed menu">
+      <a class="active item">Home</a>
+      <a class="item">About</a>
+      <a class="item">Projects</a>
+      <a class="item">Contact</a>
+      <p class="item" id="footer">&copy; 2016 Ezra Raez</p>
+    </div>
 
+    <div id="particles-js"></div>
+
+    <div id="main" ui-view></div>
+
+    <script src="/app.module.js"></script>
+    <script src="/app.routes.js"></script>
   </body>
 </html>
