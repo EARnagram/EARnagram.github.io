@@ -22,6 +22,7 @@ General Assembly's Web Development Immersive Course in Downtown Los Angeles.
 - Ruby on Rails
 - SQL
 - PostgreSQL
+- Python
 
 ##### And I am currently learning:
 

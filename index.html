@@ -19,15 +19,15 @@
   </head>
   <body>
 
-    <div>
-      <a ui-sref="home">Home</a>
-      <a ui-sref="about">About</a>
-      <a ui-sref="projects">Projects</a>
-      <a ui-sref="contact">Contact</a>
-      <p>&copy; 2016 Ezra Raez</p>
+    <div class="ui sidebar visible thin dark red left inverted vertical menu">
+      <a class="item" ui-sref="home">Home</a>
+      <a class="item" ui-sref="about">About</a>
+      <a class="item" ui-sref="projects">Projects</a>
+      <a class="item" ui-sref="contact">Contact</a>
+      <p class="extra item" style="padding-top: 330%;">&copy; 2016 Ezra Raez</p>
     </div>
 
-    <div id="particles-js">
+    <div id="particles-js" class="pusher">
 
       <div id="main" ui-view></div>
 
