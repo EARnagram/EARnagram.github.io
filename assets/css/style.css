@@ -7,25 +7,12 @@
   position: fixed;
 }
 
-
-body {
-  line-height: 0;
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
 }
 
-.ui.secondary.vertical.pointing.menu .item:last-child {
-  margin-top: 235%;
-}
-
-p#footer:hover {
-  color: rgba(255,255,255,.9);
-}
-
-div#main {
-  width: 83.5%;
-  float: right;
-}
-
-h1 {
-  color: #bbb;
-  display: inline;
+h1, h3 {
+  color: ghostwhite;
 }
