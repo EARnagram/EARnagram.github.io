@@ -7,24 +7,30 @@
 
 
     <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/glidejs/dist/glide.min.js"></script>
     <script src="/bower_components/lodash/dist/lodash.min.js"></script>
     <script src="/bower_components/particles.js/particles.js"></script>
     <script src="/bower_components/angular/angular.min.js"></script>
     <script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
     <script src="/bower_components/semantic/dist/semantic.min.js"></script>
 
-    <script src="/assets/js/particle_config.js"></script>
     <link rel="stylesheet" href="/bower_components/semantic/dist/semantic.min.css">
+    <link rel="stylesheet" href="/bower_components/glidejs/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="/bower_components/glidejs/dist/css/glide.theme.min.css">
+
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/glide-box.css">
+
+    <script src="/assets/js/particle_config.js"></script>
   </head>
   <body>
 
     <div id="navigation" class="ui sidebar visible thin dark red left fixed inverted divided vertical menu">
-      <a class="sidebar-menu-item" ui-sref="home">Home</a>
-      <a class="sidebar-menu-item" ui-sref="about">About</a>
-      <a class="sidebar-menu-item" ui-sref="projects">Projects</a>
-      <a class="sidebar-menu-item" ui-sref="contact">Contact</a>
-      <p class="sidebar-menu-item" id="growth"></p>
+      <a class="item" ui-sref-active="active" ui-sref="home">Home</a>
+      <a class="item" ui-sref-active="active" ui-sref="about">About</a>
+      <a class="item" ui-sref-active="active" ui-sref="projects">Projects</a>
+      <a class="item" ui-sref-active="active" ui-sref="contact">Contact</a>
+      <p class="itemsidebar-menu-item" id="growth"></p>
       <p class="sidebar-menu-item">&copy; 2016 Ezra Raez</p>
     </div>
 

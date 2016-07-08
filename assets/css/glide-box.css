@@ -1,0 +1,17 @@
+.glide {
+  margin-top: 10px; }
+  .glide__wrapper {
+    padding: 32px 0; }
+  .glide__bullets {
+    bottom: 54px; }
+  .glide__arrow {
+    color: black;
+    border-color: black; }
+  .glide__slide {
+    transition: all 200ms ease;
+    transform-origin: 50% 50%;
+    height: 200px; }
+    .glide__slide.active {
+      transform: scale(1.02); }
+
+/*# sourceMappingURL=glide-box.css.map */

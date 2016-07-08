@@ -1,0 +1,29 @@
+.glide {
+  margin-top: 10px;
+
+  &__wrapper {
+    padding: 32px 0;
+  }
+
+  &__bullets {
+    bottom: 54px
+  }
+
+  &__arrow {
+    color: black;
+    border-color: black;
+  }
+
+  &__slide {
+
+    transition: all 200ms ease;
+    transform-origin: 50% 50%;
+    height: 200px;
+
+    &.active {
+      transform: scale(1.02);
+    }
+
+  }
+
+}

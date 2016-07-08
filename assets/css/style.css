@@ -1,19 +1,21 @@
+/* basic setup */
+html, body {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: gray;
+}
+
+/* particle library */
 #particles-js {
   width: 100%;
-  height: 100%;
+  height: 102%;
+  top: -10px;
   background-color: gray;
+  position: fixed;
 }
 
-html, body {
-  height: 100%;
-  background-color: gray;
-
-}
-
-h1, h3 {
-  color: ghostwhite;
-}
-
+/* side-bar nav */
 #navigation {
   display: flex;
   flex-direction: column;
@@ -24,16 +26,16 @@ h1, h3 {
 }
 
 .sidebar-menu-item {
-  height: 22px;
-  padding: 10px 0 0 10px;
-  margin: 10px 0 0 0;
-  border-top: 2px solid #1D0D0D;
-  padding-top: 5px;
+  padding: 10px 0 10px 15px;
   color: ghostwhite;
 }
 
 .sidebar-menu-item:last-child {
-  margin-bottom: 10px;
+  border-top: 2px solid rgba(35, 15, 15, .1);
+}
+
+.sidebar-menu-item:last-child:hover {
+  color: ghostwhite;
 }
 
 .sidebar-menu-item:first-child {
@@ -41,6 +43,42 @@ h1, h3 {
   border-top: none;
 }
 
-.sidebar-menu-item:hover {
-  color: #1D0D0D;
+/* home.html */
+
+#absolute-home {
+  position: absolute;
+  top: 25%;
+  left: 15.5%;
+}
+
+/* about.html */
+
+#absolute-about {
+  position: absolute;
+  top: 25%;
+  left: 15.5%;
+}
+
+/* projects.html */
+
+#absolute-projects {
+  position: absolute;
+  top: 8%;
+  left: 15.5%;
+}
+
+
+/* contact.html */
+
+#absolute-contact {
+  position: absolute;
+  top: 25%;
+  left: 15.5%;
+}
+
+#contact-img {
+  height: 116px;
+  width: 116px;
+  margin: 0 auto;
+  vertical-align: middle;
 }
