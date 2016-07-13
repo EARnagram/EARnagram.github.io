@@ -25,7 +25,7 @@
   </head>
   <body ng-controller="MainController as vm">
 
-    <div id="navigation" class="ui sidebar thin dark red left fixed inverted divided vertical menu">
+    <div id="navigation" class="ui sidebar thin dark red left overlay inverted divided vertical menu">
       <a ng-click="vm.toggle()" class="item" ui-sref-active="active" ui-sref="home">Home</a>
       <a ng-click="vm.toggle()" class="item" ui-sref-active="active" ui-sref="about">About</a>
       <a ng-click="vm.toggle()" class="item" ui-sref-active="active" ui-sref="projects">Projects</a>
@@ -34,10 +34,11 @@
       <p class="sidebar-menu-item">&copy; 2016 Ezra Raez</p>
     </div>
 
-    <div id="particles-js" class="pusher">
-    <div id="nav-button" ng-click="vm.toggle()" ng-show="vm.buttonShow" class="ui red medium left floated launch right attached fixed button">
+    <div id="nav-button" ng-click="vm.toggle()" class="ui red tiny left floated launch right attached fixed button">
       <i class="content icon"></i>
     </div>
+
+    <div id="particles-js" class="pusher">
 
       <div id="main" ui-view></div>
 
