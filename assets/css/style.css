@@ -21,6 +21,11 @@ html, body {
   flex-direction: column;
 }
 
+#nav-button {
+  top: 5.5%;
+  z-index: 200;
+}
+
 #growth {
   flex-grow: 1;
 }
@@ -49,7 +54,7 @@ html, body {
   position: absolute;
   margin-top: 5%;
   margin-bottom: 2%;
-  width: 80%;
+  width: 90%;
   left: 5%;
 }
 
@@ -59,13 +64,8 @@ html, body {
   position: absolute;
   margin-top: 5%;
   margin-bottom: 2%;
-  width: 80%;
+  width: 90%;
   left: 5%;
-}
-
-#mashpi {
-  height: 110% !important;
-  width: 110% !important;
 }
 
 /* projects.html */
@@ -74,10 +74,13 @@ html, body {
   position: absolute;
   margin-top: 5%;
   margin-bottom: 2%;
-  width: 80%;
+  width: 90%;
   left: 5%;
 }
 
+.please-surround {
+  padding: 5%;
+}
 
 /* contact.html */
 
@@ -85,6 +88,6 @@ html, body {
   position: absolute;
   margin-top: 5%;
   margin-bottom: 2%;
-  width: 80%;
+  width: 90%;
   left: 5%;
 }

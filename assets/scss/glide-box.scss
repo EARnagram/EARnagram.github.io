@@ -1,9 +1,4 @@
 .glide {
-  margin-top: 10px;
-
-  &__wrapper {
-    padding: 32px 0;
-  }
 
   &__bullets {
     bottom: 54px;
@@ -27,12 +22,15 @@
     border-color: rgba(20, 20, 20, .65);
   }
 
+  // &__track {
+  // }
+
   &__slide {
 
     transition: all 200ms ease;
     transform-origin: 50% 50%;
-    min-height: 200px;
-    margin-top: 10px;
+    height: 400px;
+    width: 100%;
 
     &.active {
       transform: scale(1.02);
