@@ -29,5 +29,5 @@ General Assembly's Web Development Immersive Course in Downtown Los Angeles.
 - Haskell
 - Clojure
 
-#### ~~Please view my [website](https://earnagram.github.io/) for more details.~~
+#### ~~Please view my [website](https://ezRAez.github.io/) for more details.~~
 ##### Not yet available - too busy writing [lessons](https://github.com/EARnagram/lessons) for my students!
