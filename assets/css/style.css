@@ -47,7 +47,7 @@ html, body {
 
 #absolute-home {
   position: absolute;
-  top: 25%;
+  top: 10%;
   left: 15.5%;
 }
 
@@ -55,15 +55,16 @@ html, body {
 
 #absolute-about {
   position: absolute;
-  top: 25%;
-  left: 15.5%;
+  top: 10%;
+  width: 80%;
+  left: 4%;
 }
 
 /* projects.html */
 
 #absolute-projects {
   position: absolute;
-  top: 8%;
+  top: 10%;
   left: 15.5%;
 }
 
@@ -72,6 +73,6 @@ html, body {
 
 #absolute-contact {
   position: absolute;
-  top: 25%;
+  top: 10%;
   left: 15.5%;
 }
