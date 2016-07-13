@@ -1,6 +1,6 @@
 /* basic setup */
 html, body {
-  position: absolute;
+  position: static;
   height: 100%;
   width: 100%;
   background-color: gray;
@@ -12,7 +12,7 @@ html, body {
   height: 102%;
   top: -10px;
   background-color: gray;
-  position: fixed;
+  position: absolute;
 }
 
 /* side-bar nav */
@@ -48,7 +48,8 @@ html, body {
 #absolute-home {
   position: absolute;
   top: 10%;
-  left: 15.5%;
+  width: 80%;
+  left: 4%;
 }
 
 /* about.html */
@@ -65,7 +66,8 @@ html, body {
 #absolute-projects {
   position: absolute;
   top: 10%;
-  left: 15.5%;
+  width: 80%;
+  left: 4%;
 }
 
 
@@ -74,5 +76,6 @@ html, body {
 #absolute-contact {
   position: absolute;
   top: 10%;
-  left: 15.5%;
+  width: 80%;
+  left: 4%;
 }

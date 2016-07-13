@@ -5,8 +5,11 @@
   .glide__bullets {
     bottom: 54px; }
   .glide__arrow {
-    color: black;
-    border-color: black; }
+    color: transparent;
+    border-color: transparent; }
+  .glide__arrow:hover {
+    color: rgba(20, 20, 20, 0.3);
+    border-color: rgba(20, 20, 20, 0.3); }
   .glide__slide {
     transition: all 200ms ease;
     transform-origin: 50% 50%;

@@ -10,8 +10,13 @@
   }
 
   &__arrow {
-    color: black;
-    border-color: black;
+    color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+  }
+
+  &__arrow:hover {
+    color: rgba(20, 20, 20, .3);
+    border-color: rgba(20, 20, 20, .3);
   }
 
   &__slide {
