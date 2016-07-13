@@ -47,30 +47,35 @@ html, body {
 
 #absolute-home {
   position: absolute;
-  top: 10%;
+  margin-top: 5%;
   margin-bottom: 2%;
   width: 80%;
-  left: 4%;
+  left: 5%;
 }
 
 /* about.html */
 
 #absolute-about {
   position: absolute;
-  top: 10%;
+  margin-top: 5%;
   margin-bottom: 2%;
   width: 80%;
-  left: 4%;
+  left: 5%;
+}
+
+#mashpi {
+  height: 110% !important;
+  width: 110% !important;
 }
 
 /* projects.html */
 
 #absolute-projects {
   position: absolute;
-  top: 10%;
+  margin-top: 5%;
   margin-bottom: 2%;
   width: 80%;
-  left: 4%;
+  left: 5%;
 }
 
 
@@ -78,8 +83,8 @@ html, body {
 
 #absolute-contact {
   position: absolute;
-  top: 10%;
+  margin-top: 5%;
   margin-bottom: 2%;
   width: 80%;
-  left: 4%;
+  left: 5%;
 }

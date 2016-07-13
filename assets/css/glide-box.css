@@ -4,16 +4,21 @@
     padding: 32px 0; }
   .glide__bullets {
     bottom: 54px; }
+  .glide__bullet {
+    background-color: rgba(0, 0, 0, 0.2); }
+  .glide__bullet.active {
+    background-color: rgba(0, 0, 0, 0.65); }
   .glide__arrow {
-    color: transparent;
-    border-color: transparent; }
+    color: rgba(0, 0, 0, 0.05);
+    border-color: rgba(0, 0, 0, 0.05); }
   .glide__arrow:hover {
-    color: rgba(20, 20, 20, 0.3);
-    border-color: rgba(20, 20, 20, 0.3); }
+    color: rgba(20, 20, 20, 0.8);
+    border-color: rgba(20, 20, 20, 0.65); }
   .glide__slide {
     transition: all 200ms ease;
     transform-origin: 50% 50%;
-    height: 200px; }
+    min-height: 200px;
+    margin-top: 10px; }
     .glide__slide.active {
       transform: scale(1.02); }
 
