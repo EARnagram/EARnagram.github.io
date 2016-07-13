@@ -48,6 +48,7 @@ html, body {
 #absolute-home {
   position: absolute;
   top: 10%;
+  margin-bottom: 2%;
   width: 80%;
   left: 4%;
 }
@@ -57,6 +58,7 @@ html, body {
 #absolute-about {
   position: absolute;
   top: 10%;
+  margin-bottom: 2%;
   width: 80%;
   left: 4%;
 }
@@ -66,6 +68,7 @@ html, body {
 #absolute-projects {
   position: absolute;
   top: 10%;
+  margin-bottom: 2%;
   width: 80%;
   left: 4%;
 }
@@ -76,6 +79,7 @@ html, body {
 #absolute-contact {
   position: absolute;
   top: 10%;
+  margin-bottom: 2%;
   width: 80%;
   left: 4%;
 }
