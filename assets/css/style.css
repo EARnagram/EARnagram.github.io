@@ -82,12 +82,11 @@ html, body {
 }
 
 #project-view {
-  height: 90vh;
+  height: 85vh;
 }
 
 .project-surround {
   padding: 2vh 2vw;
-  background-color: gray;
   min-height: 65vh;
   margin: 2vh 2vw;
 }
