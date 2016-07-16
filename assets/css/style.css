@@ -57,8 +57,8 @@ html, body {
   position: absolute;
   margin-top: 5%;
   margin-bottom: 2%;
-  width: 90%;
-  left: 5%;
+  width: 90vw;
+  left: 5vw;
 }
 
 /* about.html */
@@ -67,8 +67,8 @@ html, body {
   position: absolute;
   margin-top: 5%;
   margin-bottom: 2%;
-  width: 90%;
-  left: 5%;
+  width: 90vw;
+  left: 5vw;
 }
 
 /* projects.html */
@@ -77,12 +77,19 @@ html, body {
   position: absolute;
   margin-top: 5%;
   margin-bottom: 2%;
-  width: 90%;
-  left: 5%;
+  width: 90vw;
+  left: 5vw;
 }
 
-.please-surround {
-  padding: 5%;
+#project-view {
+  height: 90vh;
+}
+
+.project-surround {
+  padding: 2vh 2vw;
+  background-color: gray;
+  min-height: 65vh;
+  margin: 2vh 2vw;
 }
 
 /* contact.html */
@@ -91,6 +98,6 @@ html, body {
   position: absolute;
   margin-top: 5%;
   margin-bottom: 2%;
-  width: 90%;
-  left: 5%;
+  width: 90vw;
+  left: 5vw;
 }

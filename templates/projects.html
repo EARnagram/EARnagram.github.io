@@ -1,9 +1,9 @@
 <div id="absolute-projects">
-  <div class="ui padded segment">
+  <div id="project-view" class="ui very padded segment">
 
   <div class="ui horizontal divider"><h1 class="header">Projects</h1></div>
 
-  <div class="ui row">
+  <div>
     <div id="Glide" class="glide glide--horizontal">
       <div class="glide__arrows">
         <button data-glide-dir="&lt;" data-glide-trigger="#Glide" class="glide__arrow prev"><</button>
@@ -13,27 +13,27 @@
       <div class="glide__wrapper">
         <ul class="glide__track">
           <li class="glide__slide">
-            <div class="please-surround">
+            <div class="project-surround">
               <h2 class="header">Reversi</h2>
             </div>
           </li>
           <li class="glide__slide">
-            <div class="please-surround">
+            <div class="project-surround">
               <h2 class="header">Useless Comix</h2>
             </div>
           </li>
           <li class="glide__slide">
-            <div class="please-surround">
-              <h2 class="header">Derry's Fishin' Friends!</h2>
+            <div class="project-surround">
+              <h2 class="header">Derry's Fishin' Friends</h2>
             </div>
           </li>
           <li class="glide__slide">
-            <div class="please-surround">
-              <h2 class="header">JAMN</h2>
+            <div class="project-surround">
+              <h2 class="header">JAMN!</h2>
             </div>
           </li>
           <li class="glide__slide">
-            <div class="please-surround">
+            <div class="project-surround">
               <h2 class="header">Xanthic && Ochre</h2>
             </div>
           </li>
@@ -47,17 +47,16 @@
   <!-- End of Glide Box -->
 </div>
   <script>
-  $('#Glide').glide({
+    $('#Glide').glide({
       type: 'carousel',
       autoplay: false,
       hoverpause: true,
       autoheight: true,
-      centered: false,
+      centered: true,
       startAt: 1,
       throttle: 10,
       animationDuration: 500,
-      paddings: 15,
-      animationTimingFunc: 'cubic-bezier(0.222, 0.840, 0.440, 1.000)'
-  });
+      paddings: "15%"
+    });
   </script>
 </div>
