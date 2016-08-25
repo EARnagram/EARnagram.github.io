@@ -2,5 +2,5 @@
   'use strict';
 
   angular
-    .module('ezra', ['ui.router']);
+    .module('ezra', ['ui.router', 'ngAnimate']);
 })();
