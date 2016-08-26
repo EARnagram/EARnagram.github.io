@@ -91,6 +91,10 @@ html, body {
   margin: 2vh 2vw;
 }
 
+.project-link {
+  color: inherit;
+}
+
 /* contact.html */
 
 #absolute-contact {
