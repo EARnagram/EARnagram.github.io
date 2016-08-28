@@ -61,6 +61,10 @@ html, body {
   left: 5vw;
 }
 
+#absolute-home h1.header {
+  font-size: 3.5rem;
+}
+
 /* about.html */
 
 #absolute-about {
