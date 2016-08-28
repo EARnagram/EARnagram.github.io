@@ -55,7 +55,7 @@ html, body {
 
 #absolute-home {
   position: absolute;
-  margin-top: 5%;
+  margin-top: 3%;
   margin-bottom: 2%;
   width: 90vw;
   left: 5vw;
@@ -69,7 +69,7 @@ html, body {
 
 #absolute-about {
   position: absolute;
-  margin-top: 5%;
+  margin-top: 3%;
   margin-bottom: 2%;
   width: 90vw;
   left: 5vw;
@@ -79,7 +79,7 @@ html, body {
 
 #absolute-projects {
   position: absolute;
-  margin-top: 5%;
+  margin-top: 3%;
   margin-bottom: 2%;
   width: 90vw;
   left: 5vw;
@@ -103,7 +103,7 @@ html, body {
 
 #absolute-contact {
   position: absolute;
-  margin-top: 5%;
+  margin-top: 3%;
   margin-bottom: 2%;
   width: 90vw;
   left: 5vw;
