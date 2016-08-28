@@ -1,5 +1,5 @@
 div#main.ng-enter {
-  transition: 0.5s linear all;
+  transition: 0.8s ease all;
   opacity: 0;
 }
 
