@@ -1,7 +1,7 @@
 /* basic setup */
 html, body {
   position: static;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   background-color: gray;
 }
@@ -9,8 +9,9 @@ html, body {
 /* particle library */
 #particles-js {
   width: 100%;
-  height: 100%;
-  top: -10px;
+  height: 105%;
+  top: -3%;
+  bottom: -2%;
   background-color: gray;
   position: relative;
 }
@@ -58,7 +59,7 @@ html, body {
   margin: auto;
   top: 0; left: 0; bottom: 0; right: 0;
   width: 90vw;
-  height: 95vh;
+  height: 100vh;
   pointer-events: none;
 }
 
@@ -66,8 +67,8 @@ html, body {
   position: absolute;
   margin: auto;
   top: 0; left: 0; bottom: 0; right: 0;
-  min-height: 50vh;
-  max-height: 93vh;
+  min-height: 50%;
+  max-height: 95vh;
   pointer-events: auto;
 }
 
@@ -90,7 +91,7 @@ html, body {
   position: absolute;
   margin: auto;
   top: 0; left: 0; bottom: 0; right: 0;
-  min-height: 80vh;
+  min-height: 80%;
   max-height: 95vh;
   pointer-events: auto;
 }
@@ -115,7 +116,7 @@ html, body {
   position: absolute;
   margin: auto;
   top: 0; left: 0; bottom: 0; right: 0;
-  height: 90vh;
+  max-height: 95vh;
 }
 
 .project-surround {
@@ -140,6 +141,6 @@ html, body {
   position: absolute;
   margin: auto;
   top: 0; left: 0; bottom: 0; right: 0;
-  max-height: 60vh;
+  max-height: 95vh;
   pointer-events: auto;
 }
