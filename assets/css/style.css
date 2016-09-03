@@ -129,6 +129,10 @@ html, body {
   border-bottom: 2px solid black;
 }
 
+#absolute-projects p {
+  text-align: justify;
+}
+
 #absolute-projects .span-right {
   float: right;
 }
