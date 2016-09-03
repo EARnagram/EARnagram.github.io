@@ -135,6 +135,7 @@ html, body {
   min-height: 65vh;
   max-height: 70vh;
   margin: 2vh 2vw;
+  pointer-events: auto;
 }
 
 #absolute-projects h2.header {
