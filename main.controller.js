@@ -21,7 +21,7 @@
     //     github:       "https://github.com/ezRAez/reversi",
     //     comment:      "The difficulty in programming Reversi is the dynamic \
     //                    nature of the game play.  A move could take anywhere \
-    //                    between one and six opponent pieces in a given move."
+    //                    between one and six opponent pieces in a given move.",
     //     codeImage:    "../assets/images/projects/reversi_code.png",
     //     codeComment:  "<code>searchBoard</code> compiles the surrounding \
     //                    squares' values in a given direction into a \
@@ -35,7 +35,6 @@
     //                     "DOM manipulation with jQuery",
     //                     "Regex for Move Validation"
     //                   ]
-
     //   }
     // ];
   }
