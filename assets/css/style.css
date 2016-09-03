@@ -56,20 +56,12 @@ html, body {
   margin: auto;
   top: 0; left: 0; bottom: 0; right: 0;
   width: 90vw;
-  height: 100vh;
-  pointer-events: none;
-}
-
-#absolute-home #home-view {
-  position: absolute;
-  margin: auto;
-  top: 0; left: 0; bottom: 0; right: 0;
-  min-height: 50%;
+  height: 50%;
   max-height: 90vh;
   pointer-events: none;
 }
 
-#absolute-home #home-view .segment {
+#absolute-home #home-view {
   pointer-events: auto;
 }
 
@@ -81,24 +73,16 @@ html, body {
 
 #absolute-about {
   position: absolute;
+  z-index: 100;
   margin: auto;
   top: 0; left: 0; bottom: 0; right: 0;
   width: 90vw;
-  min-height: 50%;
-  max-height: 100vh;
-  pointer-events: none;
-}
-
-#absolute-about #about-view {
-  position: absolute;
-  margin: auto;
-  top: 0; left: 0; bottom: 0; right: 0;
-  min-height: 80%;
+  height: 50%;
   max-height: 90vh;
   pointer-events: none;
 }
 
-#absolute-about #about-view .segment {
+#absolute-about #about-view {
   pointer-events: auto;
 }
 
@@ -113,29 +97,18 @@ html, body {
   margin: auto;
   top: 0; left: 0; bottom: 0; right: 0;
   width: 90vw;
-  min-height: 50%;
-  max-height: 100vh;
+  height: 50%;
+  max-height: 90vh;
   pointer-events: none;
 }
 
 #absolute-projects #project-view {
-  pointer-events: none;
-  position: absolute;
-  margin: auto;
-  top: 0; left: 0; bottom: 0; right: 0;
-  max-height: 90vh;
-}
-
-#absolute-project #project-view .segment {
   pointer-events: auto;
 }
 
 #absolute-projects .project-surround {
   padding: 0 1.5vw;
-  min-height: 65vh;
-  max-height: 70vh;
   margin: 2vh 2vw;
-  pointer-events: auto;
 }
 
 #absolute-projects h2.header {

@@ -1,9 +1,7 @@
 .glide {
 
-  top: -1%;
-
-  &__bullets {
-    bottom: -5%;
+  &__wrapper {
+    margin-top: -2%;
   }
 
   &__bullet {
@@ -26,15 +24,16 @@
 
   &__track {
     padding: 0;
+    height: 100%;
   }
 
   &__slide {
 
     transition: all 200ms ease;
-    height: 70vh;
+    height: 100%;
 
     &.active {
-      transform: scale(1.04);
+      transform: scale(1.05);
     }
 
   }

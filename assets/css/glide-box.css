@@ -1,23 +1,22 @@
-.glide {
-  top: -1%; }
-  .glide__bullets {
-    bottom: -5%; }
-  .glide__bullet {
-    background-color: rgba(0, 0, 0, 0.2); }
-  .glide__bullet.active {
-    background-color: rgba(0, 0, 0, 0.65); }
-  .glide__arrow {
-    color: rgba(0, 0, 0, 0.05);
-    border-color: rgba(0, 0, 0, 0.05); }
-  .glide__arrow:hover {
-    color: rgba(20, 20, 20, 0.8);
-    border-color: rgba(20, 20, 20, 0.65); }
-  .glide__track {
-    padding: 0; }
-  .glide__slide {
-    transition: all 200ms ease;
-    height: 70vh; }
-    .glide__slide.active {
-      transform: scale(1.04); }
+.glide__wrapper {
+  margin-top: -2%; }
+.glide__bullet {
+  background-color: rgba(0, 0, 0, 0.2); }
+.glide__bullet.active {
+  background-color: rgba(0, 0, 0, 0.65); }
+.glide__arrow {
+  color: rgba(0, 0, 0, 0.05);
+  border-color: rgba(0, 0, 0, 0.05); }
+.glide__arrow:hover {
+  color: rgba(20, 20, 20, 0.8);
+  border-color: rgba(20, 20, 20, 0.65); }
+.glide__track {
+  padding: 0;
+  height: 100%; }
+.glide__slide {
+  transition: all 200ms ease;
+  height: 100%; }
+  .glide__slide.active {
+    transform: scale(1.05); }
 
 /*# sourceMappingURL=glide-box.css.map */
