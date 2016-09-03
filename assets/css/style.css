@@ -140,18 +140,11 @@ html, body {
   margin: auto;
   top: 0; left: 0; bottom: 0; right: 0;
   width: 90vw;
-  max-height: 100vh;
-  pointer-events: none;
-}
-
-#absolute-contact #contact-view {
-  position: absolute;
-  margin: auto;
-  top: 0; left: 0; bottom: 0; right: 0;
+  height: 40%;
   max-height: 90vh;
   pointer-events: none;
 }
 
-#absolute-contact #contact-view .segment {
+#absolute-contact #contact-view {
   pointer-events: auto;
 }
