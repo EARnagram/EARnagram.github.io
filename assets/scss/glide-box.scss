@@ -1,7 +1,9 @@
 .glide {
 
+  top: -1%;
+
   &__bullets {
-    bottom: 54px;
+    bottom: -5%;
   }
 
   &__bullet {
@@ -32,7 +34,7 @@
     height: 70vh;
 
     &.active {
-      transform: scale(1.02);
+      transform: scale(1.04);
     }
 
   }
