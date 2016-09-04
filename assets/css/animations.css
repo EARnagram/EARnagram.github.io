@@ -10,13 +10,133 @@ div#main.ng-enter.ng-enter-active {
 #particles-js, body {
   background-color: #72747C;
   -webkit-animation:  changeBgColor 60s linear infinite;
-/*  -moz-animation:     changeBgColor 25s infinite;
-  -ms-animation:      changeBgColor 25s infinite;
-  -o-animation:       changeBgColor 25s infinite;
-  animation:          changeBgColor 25s infinite;*/
+  -moz-animation:     changeBgColor 60s linear infinite;
+  -ms-animation:      changeBgColor 60s linear infinite;
+  -o-animation:       changeBgColor 60s linear infinite;
+  animation:          changeBgColor 60s linear infinite;
 }
 
 @-webkit-keyframes changeBgColor {
+  0% {
+    background-color: #72747C;
+  }
+  7% {
+    background-color: #4A5166;
+  }
+  21% {
+    background-color: #26344C;
+  }
+  35% {
+    background-color: #0D1533;
+  }
+  49% {
+    background-color: #00081A;
+  }
+  63% {
+    background-color: #0D1533;
+  }
+  77% {
+    background-color: #26344C;
+  }
+  92% {
+    background-color: #4A5166;
+  }
+  100% {
+    background-color: #72747C;
+  }
+}
+
+@-moz-keyframes changeBgColor {
+  0% {
+    background-color: #72747C;
+  }
+  7% {
+    background-color: #4A5166;
+  }
+  21% {
+    background-color: #26344C;
+  }
+  35% {
+    background-color: #0D1533;
+  }
+  49% {
+    background-color: #00081A;
+  }
+  63% {
+    background-color: #0D1533;
+  }
+  77% {
+    background-color: #26344C;
+  }
+  92% {
+    background-color: #4A5166;
+  }
+  100% {
+    background-color: #72747C;
+  }
+}
+
+@-o-keyframes changeBgColor {
+  0% {
+    background-color: #72747C;
+  }
+  7% {
+    background-color: #4A5166;
+  }
+  21% {
+    background-color: #26344C;
+  }
+  35% {
+    background-color: #0D1533;
+  }
+  49% {
+    background-color: #00081A;
+  }
+  63% {
+    background-color: #0D1533;
+  }
+  77% {
+    background-color: #26344C;
+  }
+  92% {
+    background-color: #4A5166;
+  }
+  100% {
+    background-color: #72747C;
+  }
+}
+
+@-ms-keyframes changeBgColor {
+  0% {
+    background-color: #72747C;
+  }
+  7% {
+    background-color: #4A5166;
+  }
+  21% {
+    background-color: #26344C;
+  }
+  35% {
+    background-color: #0D1533;
+  }
+  49% {
+    background-color: #00081A;
+  }
+  63% {
+    background-color: #0D1533;
+  }
+  77% {
+    background-color: #26344C;
+  }
+  92% {
+    background-color: #4A5166;
+  }
+  100% {
+    background-color: #72747C;
+  }
+}
+
+keyframes changeBgColor {
   0% {
     background-color: #72747C;
   }
@@ -74,76 +194,3 @@ div#main.ng-enter.ng-enter-active {
     background-color: #B72630;
   }
 }*/
-
-/*@-moz-keyframes changeBgColor {
-  0% {
-    background-color: red;
-  }
-  25% {
-    background-color: green;
-  }
-  50% {
-    background-color: blue;
-  }
-  75% {
-    background-color: black;
-  }
-  100% {
-    background-color: red;
-  }
-}
-
-@-o-keyframes changeBgColor {
-  0% {
-    background-color: red;
-  }
-  25% {
-    background-color: green;
-  }
-  50% {
-    background-color: blue;
-  }
-  75% {
-    background-color: black;
-  }
-  100% {
-    background-color: red;
-  }
-}
-
-@-ms-keyframes changeBgColor {
-  0% {
-    background-color: red;
-  }
-  25% {
-    background-color: green;
-  }
-  50% {
-    background-color: blue;
-  }
-  75% {
-    background-color: black;
-  }
-  100% {
-    background-color: red;
-  }
-}
-
-keyframes changeBgColor {
-  0% {
-    background-color: red;
-  }
-  25% {
-    background-color: green;
-  }
-  50% {
-    background-color: blue;
-  }
-  75% {
-    background-color: black;
-  }
-  100% {
-    background-color: red;
-  }
-}
-*/
