@@ -19,11 +19,6 @@ $(function() {
         },
         "polygon": {
           "nb_sides": 6
-        },
-        "image": {
-          "src": "img/github.svg",
-          "width": 100,
-          "height": 101
         }
       },
       "opacity": {
