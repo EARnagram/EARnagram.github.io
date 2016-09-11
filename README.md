@@ -12,7 +12,6 @@ General Assembly's Web Development Immersive Course in Downtown Los Angeles.
 - Javascript
 - Ruby
 - AngularJS
-- Jasmine/Karma
 - Node
 - Express
 - NoSQL Databases, such as MongoDB
@@ -23,11 +22,14 @@ General Assembly's Web Development Immersive Course in Downtown Los Angeles.
 - SQL
 - PostgreSQL
 - Python
+- PHP
+- Jasmine/Karma
+- Mochai/Chai
 
 ##### And I am currently learning:
 
 - Haskell
 - Clojure
 
-#### ~~Please view my [website](https://ezRAez.github.io/) for more details.~~
-##### Not yet available - too busy writing [lessons](https://github.com/EARnagram/lessons) for my students!
+#### Please view my [website](http://www.ezraraez.com) for more details.
+##### Feel free to view my [lessons](https://github.com/EARnagram/lessons) repo as well!
