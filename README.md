@@ -12,10 +12,12 @@ General Assembly's Web Development Immersive Course in Downtown Los Angeles.
 - Javascript
 - Ruby
 - AngularJS
+- ReactJS
 - Node
 - Express
 - NoSQL Databases, such as MongoDB
 - Ionic
+- React Native
 - HTML/CSS
 - JQuery
 - Ruby on Rails
