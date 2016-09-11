@@ -3,4 +3,5 @@
 
   angular
     .module('ezra', ['ui.router', 'ngAnimate']);
+
 })();

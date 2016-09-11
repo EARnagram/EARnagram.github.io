@@ -5,9 +5,11 @@
     .module("ezra")
     .config(AppRoutes);
 
-  AppRoutes.$inject = ["$stateProvider", "$urlRouterProvider"];
+  AppRoutes.$inject = ["$stateProvider", "$urlRouterProvider", "$locationProvider"];
 
-  function AppRoutes($stateProvider, $urlRouterProvider) {
+  function AppRoutes($stateProvider, $urlRouterProvider, $locationProvider) {
+    $locationProvider.html5Mode(true);
+
     $stateProvider
       .state("home", {
         url: "/",

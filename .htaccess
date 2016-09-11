@@ -1,0 +1,8 @@
+RewriteEngine On 
+Options FollowSymLinks
+
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} figlet -f poison uh-oh
+RewriteCond %{REQUEST_FILENAME} dit s
+RewriteRule ^(.*)$ /#/ [L]
