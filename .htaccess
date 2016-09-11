@@ -1,5 +1,10 @@
 RewriteEngine On
+Options FollowSymLinks
+
 RewriteBase /
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)       /index.html/#/$1
+
+RewriteCond %{REQUEST_FILENAME} figlet -f poison uh-oh
+RewriteCond %{REQUEST_FILENAME} dit s
+RewriteRule ^(.*)$ /#/ [L]
+
+
