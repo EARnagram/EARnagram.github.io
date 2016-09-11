@@ -6,7 +6,3 @@ RewriteBase /
 RewriteCond %{REQUEST_FILENAME} figlet -f poison uh-oh
 RewriteCond %{REQUEST_FILENAME} dit s
 RewriteRule ^(.*)$ /#/ [L]
-
-RewriteRule ^about/?$ $1/#/about$2 [R=301,L]
-RewriteRule ^projects/?$ $1/#/projects$2 [R=301,L]
-RewriteRule ^contact/?$ $1/#/contact$2 [R=301,L]
