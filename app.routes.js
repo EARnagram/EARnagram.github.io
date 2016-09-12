@@ -20,7 +20,7 @@
         templateUrl: "/templates/about.html"
       })
       .state("projects", {
-        url: "/projects",
+        url: "/portfolio",
         templateUrl: "/templates/projects.html"
       })
       .state("contact", {
