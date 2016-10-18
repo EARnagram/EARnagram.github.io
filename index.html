@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html ng-app="ezra">
   <head>
+    <script type="text/javascript">
+      var host = "www.ezraraez.com";
+      if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+    </script>
     <base href="/index.html">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>ezRAez</title>
     <link rel="icon" type="image/png" href="/assets/images/ear.ico">
-
+    <link rel="canonical" href="https://www.ezraraez.com" />
     <link rel="stylesheet" href="/bower_components/semantic/dist/semantic.min.css">
     <link rel="stylesheet" href="/bower_components/glidejs/dist/css/glide.core.css">
     <link rel="stylesheet" href="/bower_components/glidejs/dist/css/glide.theme.css">
