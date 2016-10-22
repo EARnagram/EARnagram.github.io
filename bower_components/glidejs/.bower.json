@@ -1,6 +1,6 @@
 {
   "name": "glidejs",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "homepage": "http://glide.jedrzejchalubek.com",
   "authors": [
     "Jędrzej Chałubek <jedrzej.chalubek@gmail.com>"
@@ -8,7 +8,8 @@
   "description": "Glide is a responsive and touch-friendly jQuery slider. Based on CSS3 transitions with fallback to older broswers. It's simple, lightweight and fast.",
   "main": [
     "dist/glide.min.js",
-    "dist/css/glide.css"
+    "dist/css/glide.core.min.css",
+    "dist/css/glide.theme.min.css"
   ],
   "moduleType": [
     "node"
@@ -31,14 +32,13 @@
     "jquery": "*",
     "jasmine-jquery": "*"
   },
-  "_release": "2.0.8",
+  "_release": "2.0.9",
   "_resolution": {
     "type": "version",
-    "tag": "v2.0.8",
-    "commit": "1f1b00d9d7aae25a0c57b4afb1203c3f2b55d074"
+    "tag": "v2.0.9",
+    "commit": "db9d1fb7874e4a55166eda5bb535139c5fdea98b"
   },
   "_source": "https://github.com/jedrzejchalubek/Glide.js.git",
   "_target": "^2.0.8",
-  "_originalSource": "glidejs",
-  "_direct": true
+  "_originalSource": "glidejs"
 }

@@ -11,6 +11,7 @@ var Api = function(Glide, Core) {
      * Api constructor.
      */
     function Api() {
+
     }
 
     /**
@@ -140,6 +141,8 @@ var Api = function(Glide, Core) {
                 Core.Touch.unbind();
                 Core.Arrows.unbind();
                 Core.Bullets.unbind();
+
+                Glide.destroyed = true;
 
                 delete Glide.slider;
                 delete Glide.track;

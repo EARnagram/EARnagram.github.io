@@ -71,6 +71,9 @@ var Glide = function(element, options) {
     this.collect();
     this.setup();
 
+    // Mark the glide as not destroyed
+    this.destroyed = false;
+
     // Call before init callback.
     this.options.beforeInit({
         index: this.current,
@@ -88,11 +91,11 @@ var Glide = function(element, options) {
         Helper: Helper,
         Translate: Translate,
         Transition: Transition,
+        Arrows: Arrows,
+        Bullets: Bullets,
         Run: Run,
         Animation: Animation,
         Clones: Clones,
-        Arrows: Arrows,
-        Bullets: Bullets,
         Height: Height,
         Build: Build,
         Events: Events,
