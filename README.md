@@ -1,5 +1,5 @@
 # Ezra Arez Ráez
-<img src="http://i.imgur.com/8lCNXW9.jpg" alt="me" height="200px">
+---
 ## Web Developer
 
 _Hello!_
