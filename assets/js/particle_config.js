@@ -27,7 +27,7 @@ $(function() {
         "anim": {
           "enable": true,
           "speed": 2,
-          "opacity_min": 0.7,
+          "opacity_min": 0.9,
           "sync": false
         }
       },

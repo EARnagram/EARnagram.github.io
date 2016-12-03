@@ -1,61 +1,55 @@
 <!DOCTYPE html>
-<html ng-app="ezra">
+<html>
   <head>
     <script type="text/javascript">
       var host = "www.ezraraez.com";
       if ((host == window.location.host) && (window.location.protocol != "https:"))
         window.location.protocol = "https";
     </script>
-    <base href="/index.html">
+    <!-- <base href="/index.html"> -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>ezRAez</title>
     <link rel="icon" type="image/png" href="/assets/images/ear.ico">
     <link rel="canonical" href="https://www.ezraraez.com" />
     <link rel="stylesheet" href="/bower_components/semantic/dist/semantic.min.css">
-    <link rel="stylesheet" href="/bower_components/glidejs/dist/css/glide.core.css">
-    <link rel="stylesheet" href="/bower_components/glidejs/dist/css/glide.theme.css">
 
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/animations.css">
-    <link rel="stylesheet" href="/assets/css/glide-box.css">
 
     <script src="/bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="/bower_components/glidejs/dist/glide.min.js"></script>
     <script src="/bower_components/lodash/dist/lodash.min.js"></script>
     <script src="/bower_components/particles.js/particles.js"></script>
-    <script src="/bower_components/angular/angular.min.js"></script>
-    <script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
-    <script src="/bower_components/angular-animate/angular-animate.min.js"></script>
     <script src="/bower_components/semantic/dist/semantic.min.js"></script>
 
 
     <script src="/assets/js/particle_config.js"></script>
   </head>
-  <body ng-controller="MainController as vm">
+  <body>
 
-    <div id="navigation" class="ui sidebar thin dark red left overlay inverted divided vertical menu">
-      <a ng-click="vm.toggle()" class="item" ui-sref-active="active" ui-sref="home">Home</a>
-      <a ng-click="vm.toggle()" class="item" ui-sref-active="active" ui-sref="about">About</a>
-      <a ng-click="vm.toggle()" class="item" ui-sref-active="active" ui-sref="projects">Portfolio</a>
-      <a ng-click="vm.toggle()" class="item" ui-sref-active="active" ui-sref="contact">Contact</a>
-      <p class="itemsidebar-menu-item" id="growth"></p>
-      <p class="sidebar-menu-item">&copy; 2016 Ezra Raez</p>
+    <div id="particles-js">
+      <div id="absolute-home">
+      <div class="ui center aligned container">
+        <h1 class="header">EZRA AREZ RAEZ</h1>
+
+        <div class="ui fluid three item secondary pointing menu" id="home-view">
+          <a class="active item">
+            Home
+          </a>
+          <a class="item">
+            Technical
+          </a>
+          <a class="item">
+            Contact
+          </a>
+        </div>
+        <div class="ui segment">
+          <p></p>
+        </div>
+
+
+      </div>
+      </div>
     </div>
-
-    <div id="nav-button" ng-click="vm.toggle()" class="ui red tiny left floated launch right attached fixed button">
-      <i class="content icon"></i>
-    </div>
-
-    <div id="particles-js" class="pusher">
-
-      <div id="main" ui-view></div>
-
-    </div>
-
-
-    <script src="/app.module.js"></script>
-    <script src="/app.routes.js"></script>
-    <script src="/main.controller.js"></script>
   </body>
 </html>

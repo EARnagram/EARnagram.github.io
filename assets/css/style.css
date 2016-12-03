@@ -1,7 +1,7 @@
 /* basic setup */
 html, body {
   height: 100%;
-  max-height: 140%;
+  max-height: 100%;
 }
 
 /* particle library */
@@ -12,43 +12,6 @@ html, body {
   top: -2%;
   position: absolute;
 }
-
-/* side-bar nav */
-#navigation {
-  display: flex;
-  flex-direction: column;
-  z-index: 200;
-}
-
-#nav-button {
-  position: fixed;
-  top: 3.5%;
-  left: 0;
-  z-index: 100;
-}
-
-#growth {
-  flex-grow: 1;
-}
-
-.sidebar-menu-item {
-  padding: 10px 0 10px 15px;
-  color: ghostwhite;
-}
-
-.sidebar-menu-item:last-child {
-  border-top: 3px solid rgba(35, 15, 15, .1);
-}
-
-.sidebar-menu-item:last-child:hover {
-  color: ghostwhite;
-}
-
-.sidebar-menu-item:first-child {
-  margin-top: 0px;
-  border-top: none;
-}
-
 /* home.html */
 
 #absolute-home {
@@ -57,7 +20,7 @@ html, body {
   top: 0; left: 0; bottom: 0; right: 0;
   width: 61%;
   max-width: 90vw;
-  height: 84%;
+  height: 80vh;
   max-height: 90%;
   pointer-events: none;
 }
@@ -68,24 +31,26 @@ html, body {
   margin: 0 auto;
 }
 
-#absolute-home .divider {
-  margin: 0 0 1rem 0;
-}
-
 #absolute-home h1.header {
   font-size: 2.3rem;
 }
 
+/*
+#absolute-home .divider {
+  margin: 0 0 1rem 0;
+}*/
+
+/*
 #absolute-home .sub-header {
   margin: 0;
 }
 
 #absolute-home img {
   margin: 1rem auto;
-}
+}*/
 
 /* about.html */
-
+/*
 #absolute-about {
   position: absolute;
   z-index: 100;
@@ -103,10 +68,10 @@ html, body {
 
 #absolute-about #web-dev-title {
   margin-top: -2%;
-}
+}*/
 
 /* projects.html */
-
+/*
 #absolute-projects {
   position: absolute;
   margin: auto;
@@ -146,9 +111,9 @@ html, body {
   cursor: grabbing;
   cursor: -webkit-grabbing;
 }
-
+*/
 /* contact.html */
-
+/*
 #absolute-contact {
   position: absolute;
   margin: auto;
@@ -161,3 +126,41 @@ html, body {
 #absolute-contact #contact-view {
   pointer-events: auto;
 }
+*/
+
+/* side-bar nav */
+/*#navigation {
+  display: flex;
+  flex-direction: column;
+  z-index: 200;
+}
+
+#nav-button {
+  position: fixed;
+  top: 3.5%;
+  left: 0;
+  z-index: 100;
+}
+
+#growth {
+  flex-grow: 1;
+}
+
+.sidebar-menu-item {
+  padding: 10px 0 10px 15px;
+  color: ghostwhite;
+}
+
+.sidebar-menu-item:last-child {
+  border-top: 3px solid rgba(35, 15, 15, .1);
+}
+
+.sidebar-menu-item:last-child:hover {
+  color: ghostwhite;
+}
+
+.sidebar-menu-item:first-child {
+  margin-top: 0px;
+  border-top: none;
+}
+*/
