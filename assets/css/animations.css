@@ -1,13 +1,11 @@
-/*div#main.ng-enter {
-  transition: 0.8s ease all;
-  opacity: 0;
+#particles-js, body {
+  background-color: #72747C;
+  -webkit-animation:  changeBgColor 60s linear infinite;
+  -moz-animation:     changeBgColor 60s linear infinite;
+  -ms-animation:      changeBgColor 60s linear infinite;
+  -o-animation:       changeBgColor 60s linear infinite;
+  animation:          changeBgColor 60s linear infinite;
 }
-
-div#main.ng-enter.ng-enter-active {
-  opacity: 1;
-}*/
-
-       /
 
 @-webkit-keyframes changeBgColor {
   0% {
