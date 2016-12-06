@@ -4,6 +4,11 @@ html, body {
   max-height: 100%;
 }
 
+@font-face {
+    font-family: aquamax;
+    src: url(../fonts/aquamax.ttf);
+}
+
 /* particle library */
 #particles-js {
   width: 100%;
@@ -32,7 +37,16 @@ html, body {
 }
 
 #absolute-home h1.header {
-  font-size: 2.3rem;
+  font-size: 4em;
+  font-family: aquamax;
+}
+
+.content.more-info {
+  font-size: .8em;
+}
+
+#main-view {
+  min-height: 40vh;
 }
 
 /*

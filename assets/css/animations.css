@@ -7,6 +7,15 @@
   animation:          changeBgColor 60s linear infinite;
 }
 
+#absolute-home h1.header, #main-nav .item {
+  color: #ffe6e6;
+  -webkit-animation:  changeFontColor 30s linear infinite;
+  -moz-animation:     changeFontColor 30s linear infinite;
+  -ms-animation:      changeFontColor 30s linear infinite;
+  -o-animation:       changeFontColor 30s linear infinite;
+  animation:          changeFontColor 30s linear infinite;
+}
+
 @-webkit-keyframes changeBgColor {
   0% {
     background-color: #72747C;
@@ -154,6 +163,156 @@ keyframes changeBgColor {
   }
   100% {
     background-color: #72747C;
+  }
+}
+
+@-webkit-keyframes changeFontColor {
+  0% {
+    color: #ffe6e6;
+  }
+  7% {
+    color: #ffb3b3;
+  }
+  21% {
+    color: #ff8080;
+  }
+  35% {
+    color: #ff4d4d;
+  }
+  49% {
+    color: #ff0000;
+  }
+  63% {
+    color: #ff1a1a;
+  }
+  77% {
+    color: #ff6666;
+  }
+  92% {
+    color: #ff9999;
+  }
+  100% {
+    color: #ffe6e6;
+  }
+}
+
+@-moz-keyframes changeFontColor {
+  0% {
+    color: #ffe6e6;
+  }
+  7% {
+    color: #ffb3b3;
+  }
+  21% {
+    color: #ff8080;
+  }
+  35% {
+    color: #ff4d4d;
+  }
+  49% {
+    color: #ff0000;
+  }
+  63% {
+    color: #ff1a1a;
+  }
+  77% {
+    color: #ff6666;
+  }
+  92% {
+    color: #ff9999;
+  }
+  100% {
+    color: #ffe6e6;
+  }
+}
+
+@-o-keyframes changeFontColor {
+  0% {
+    color: #ffe6e6;
+  }
+  7% {
+    color: #ffb3b3;
+  }
+  21% {
+    color: #ff8080;
+  }
+  35% {
+    color: #ff4d4d;
+  }
+  49% {
+    color: #ff0000;
+  }
+  63% {
+    color: #ff1a1a;
+  }
+  77% {
+    color: #ff6666;
+  }
+  92% {
+    color: #ff9999;
+  }
+  100% {
+    color: #ffe6e6;
+  }
+}
+
+@-ms-keyframes changeFontColor {
+  0% {
+    color: #ffe6e6;
+  }
+  7% {
+    color: #ffb3b3;
+  }
+  21% {
+    color: #ff8080;
+  }
+  35% {
+    color: #ff4d4d;
+  }
+  49% {
+    color: #ff0000;
+  }
+  63% {
+    color: #ff1a1a;
+  }
+  77% {
+    color: #ff6666;
+  }
+  92% {
+    color: #ff9999;
+  }
+  100% {
+    color: #ffe6e6;
+  }
+}
+
+keyframes changeFontColor {
+  0% {
+    color: #ffe6e6;
+  }
+  7% {
+    color: #ffb3b3;
+  }
+  21% {
+    color: #ff8080;
+  }
+  35% {
+    color: #ff4d4d;
+  }
+  49% {
+    color: #ff0000;
+  }
+  63% {
+    color: #ff1a1a;
+  }
+  77% {
+    color: #ff6666;
+  }
+  92% {
+    color: #ff9999;
+  }
+  100% {
+    color: #ffe6e6;
   }
 }
 
