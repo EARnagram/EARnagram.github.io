@@ -49,6 +49,21 @@ html, body {
   min-height: 40vh;
 }
 
+div.ui.segment > div.ui.divided.list > div.item {
+  font-size: 1.05em;
+}
+
+div.ui.vertical > a.item {
+  font-size: 1.15em;
+}
+
+h3.ui.header > div.content {
+  font-size: 1.2em;
+}
+
+small {
+  color: #999;
+}
 /*
 #absolute-home .divider {
   margin: 0 0 1rem 0;
