@@ -46,9 +46,6 @@ html, body {
   line-height: 2;
 }
 
-#main-view {
-    min-height: 40vh;
-}
 
 div.ui.segment > div.ui.divided.list > div.item {
   font-size: 1.05em;
