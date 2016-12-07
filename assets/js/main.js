@@ -13,7 +13,7 @@ function changeView(anchor, selector) {
   if (selector === "content") {
     $('.content-view').each((i, e) => !$(e).hasClass(current) ? $(e).hide('fast') : setTimeout(() => $(e).show("slow"), 500));
   } else {
-    $('.technical-view').each((i, e) => !$(e).hasClass(current) ? $(e).fadeOut('fast') : setTimeout(() => $(e).fadeIn("slow"), 500));
+    $('.technical-view').each((i, e) => !$(e).hasClass(current) ? $(e).hide('fast') : setTimeout(() => $(e).show("slow"), 500));
   }
 
 }

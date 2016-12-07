@@ -16,6 +16,15 @@
   animation:          changeFontColor 30s linear infinite;
 }
 
+#rainbow-flow {
+  color: #B72630;
+  -webkit-animation:  rainbowColor 5s linear infinite;
+  -moz-animation:     rainbowColor 5s linear infinite;
+  -ms-animation:      rainbowColor 5s linear infinite;
+  -o-animation:       rainbowColor 5s linear infinite;
+  animation:          rainbowColor 5s linear infinite;
+}
+
 @-webkit-keyframes changeBgColor {
   0% {
     background-color: #72747C;
@@ -316,31 +325,139 @@ keyframes changeFontColor {
   }
 }
 
-/* Rainbow Effect
+ /*Rainbow Effect*/
 
-@-webkit-keyframes changeBgColor {
+@-webkit-keyframes rainbowColor {
   0% {
-    background-color: #B72630;
+    color: #B72630;
   }
   10% {
-    background-color: #C96236;
+    color: #C96236;
   }
   24% {
-    background-color: #C0BC48;
+    color: #C0BC48;
   }
   39% {
-    background-color: #58B75E;
+    color: #58B75E;
   }
   53% {
-    background-color: #073D85;
+    color: #073D85;
   }
   77% {
-    background-color: #4140A5;
+    color: #4140A5;
   }
   92% {
-    background-color: #414066;
+    color: #414066;
   }
   100% {
-    background-color: #B72630;
+    color: #B72630;
   }
-}*/
+}
+
+@-moz-keyframes rainbowColor {
+  0% {
+    color: #B72630;
+  }
+  10% {
+    color: #C96236;
+  }
+  24% {
+    color: #C0BC48;
+  }
+  39% {
+    color: #58B75E;
+  }
+  53% {
+    color: #073D85;
+  }
+  77% {
+    color: #4140A5;
+  }
+  92% {
+    color: #414066;
+  }
+  100% {
+    color: #B72630;
+  }
+}
+
+@-o-keyframes rainbowColor {
+  0% {
+    color: #B72630;
+  }
+  10% {
+    color: #C96236;
+  }
+  24% {
+    color: #C0BC48;
+  }
+  39% {
+    color: #58B75E;
+  }
+  53% {
+    color: #073D85;
+  }
+  77% {
+    color: #4140A5;
+  }
+  92% {
+    color: #414066;
+  }
+  100% {
+    color: #B72630;
+  }
+}
+
+@-ms-keyframes rainbowColor {
+  0% {
+    color: #B72630;
+  }
+  10% {
+    color: #C96236;
+  }
+  24% {
+    color: #C0BC48;
+  }
+  39% {
+    color: #58B75E;
+  }
+  53% {
+    color: #073D85;
+  }
+  77% {
+    color: #4140A5;
+  }
+  92% {
+    color: #414066;
+  }
+  100% {
+    color: #B72630;
+  }
+}
+
+keyframes rainbowColor {
+  0% {
+    color: #B72630;
+  }
+  10% {
+    color: #C96236;
+  }
+  24% {
+    color: #C0BC48;
+  }
+  39% {
+    color: #58B75E;
+  }
+  53% {
+    color: #073D85;
+  }
+  77% {
+    color: #4140A5;
+  }
+  92% {
+    color: #414066;
+  }
+  100% {
+    color: #B72630;
+  }
+}

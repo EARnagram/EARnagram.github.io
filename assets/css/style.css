@@ -12,12 +12,12 @@ html, body {
 /* particle library */
 #particles-js {
   width: 100%;
-  height: 115%;
-  max-height: 140%;
+  height: 105%;
   top: -2%;
   position: absolute;
 }
-/* home.html */
+
+/* content */
 
 #absolute-home {
   position: absolute;
@@ -25,7 +25,7 @@ html, body {
   top: 0; left: 0; bottom: 0; right: 0;
   width: 61%;
   max-width: 90vw;
-  height: 80vh;
+  height: 70vh;
   max-height: 90%;
   pointer-events: none;
 }
@@ -43,10 +43,11 @@ html, body {
 
 .content.more-info {
   font-size: .8em;
+  line-height: 2;
 }
 
 #main-view {
-  min-height: 40vh;
+    min-height: 40vh;
 }
 
 div.ui.segment > div.ui.divided.list > div.item {
@@ -62,134 +63,5 @@ h3.ui.header > div.content {
 }
 
 small {
-  color: #999;
+  color: #888;
 }
-/*
-#absolute-home .divider {
-  margin: 0 0 1rem 0;
-}*/
-
-/*
-#absolute-home .sub-header {
-  margin: 0;
-}
-
-#absolute-home img {
-  margin: 1rem auto;
-}*/
-
-/* about.html */
-/*
-#absolute-about {
-  position: absolute;
-  z-index: 100;
-  margin: auto;
-  top: 0; left: 0; bottom: 0; right: 0;
-  width: 90vw;
-  max-height: 90%;
-  pointer-events: none;
-}
-
-#absolute-about #about-view {
-  pointer-events: auto;
-  margin: 0;
-}
-
-#absolute-about #web-dev-title {
-  margin-top: -2%;
-}*/
-
-/* projects.html */
-/*
-#absolute-projects {
-  position: absolute;
-  margin: auto;
-  top: 0; left: 0; bottom: 0; right: 0;
-  width: 90vw;
-  max-height: 90%;
-  pointer-events: none;
-}
-
-#absolute-projects #project-view {
-  pointer-events: auto;
-}
-
-#absolute-projects .project-surround {
-  padding: 0 1.5vw;
-  margin: 2vh 2vw;
-}
-
-#absolute-projects h2.header {
-  border-bottom: 2px solid black;
-}
-
-#absolute-projects p {
-  text-align: justify;
-}
-
-#absolute-projects .span-right {
-  float: right;
-}
-
-#absolute-projects .cursor-grab {
-  cursor: grab;
-  cursor: -webkit-grab;
-}
-
-#absolute-projects .cursor-grab:active {
-  cursor: grabbing;
-  cursor: -webkit-grabbing;
-}
-*/
-/* contact.html */
-/*
-#absolute-contact {
-  position: absolute;
-  margin: auto;
-  top: 0; left: 0; bottom: 0; right: 0;
-  width: 90vw;
-  max-height: 90%;
-  pointer-events: none;
-}
-
-#absolute-contact #contact-view {
-  pointer-events: auto;
-}
-*/
-
-/* side-bar nav */
-/*#navigation {
-  display: flex;
-  flex-direction: column;
-  z-index: 200;
-}
-
-#nav-button {
-  position: fixed;
-  top: 3.5%;
-  left: 0;
-  z-index: 100;
-}
-
-#growth {
-  flex-grow: 1;
-}
-
-.sidebar-menu-item {
-  padding: 10px 0 10px 15px;
-  color: ghostwhite;
-}
-
-.sidebar-menu-item:last-child {
-  border-top: 3px solid rgba(35, 15, 15, .1);
-}
-
-.sidebar-menu-item:last-child:hover {
-  color: ghostwhite;
-}
-
-.sidebar-menu-item:first-child {
-  margin-top: 0px;
-  border-top: none;
-}
-*/
