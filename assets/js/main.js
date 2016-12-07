@@ -2,12 +2,7 @@ const checkValidHash = () => {
   let url = window.location.href;
   let ind = url.indexOf("#");
   let viewName = url.substring(ind + 1);
-  if (!["projects", "technical", "contact"].some(e => e === viewName)) {
-    changeHash();
-    return false;
-  } else {
-    return true;
-  }
+  return ["projects", "technical", "contact"].some(e => e === viewName)
 }
 
 const changeActive = (viewName, nav) => {
@@ -54,6 +49,7 @@ if (hashRegex.test(window.location.href)) {
   let ind = url.indexOf("#") + 1;
   let viewName = url.substring(ind);
   if (!checkValidHash()) {
+    changeHash();
     changeView("technical", "content");
     changeActive("technical", $('.main-nav a.item'));
   } else {
