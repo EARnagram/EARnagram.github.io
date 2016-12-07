@@ -22,7 +22,7 @@ html, body {
 #absolute-home {
   position: absolute;
   margin: auto;
-  top: 0; left: 0; bottom: 0; right: 0;
+  top: 0; left: 0; bottom: 20px; right: 0;
   width: 61%;
   max-width: 90vw;
   height: 70vh;
