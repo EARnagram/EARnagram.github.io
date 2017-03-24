@@ -6,9 +6,9 @@
       if ((host == window.location.host) && (window.location.protocol != "https:"))
         window.location.protocol = "https";
     </script>
-    <!-- <base href="/index.html"> -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Personal website for Ezra Arez Raez, Web Developer.">
     <title>ezRAez</title>
     <link rel="icon" type="image/png" href="/assets/images/ear.ico">
     <link rel="canonical" href="https://www.ezraraez.com" />
@@ -29,7 +29,7 @@
     <div id="particles-js">
       <div id="absolute-home">
       <div class="ui center aligned fluid container">
-        <h1 class="header heading">EZRA AREZ RAEZ</h1>
+        <h1 class="header heading">EZRA<span class="enlarge-space"> </span>AREZ<span class="enlarge-space"> </span>RAEZ</h1>
 
         <div id="home-view">
 
@@ -55,28 +55,26 @@
                   <div class="ui left aligned technical-view general padded">
                     <h3 class="ui header">
                       <img class="ui image" src="assets/images/lap_code.png">
-                      <div class="content">Software Engineer & Full-Stack Web Developer</div>
+                      <div class="content">Software Engineer — Full Stack Web Developer</div>
                     </h3>
                     <div class="ui horizontal segments">
                       <div class="ui segment">
                         <div class="ui divided list">
                           <div class="item">Git and GitHub</div>
-                          <div class="item">PostgresQL</div>
+                          <div class="item">SQL Databases</div>
                           <div class="item">MongoDB</div>
-                          <div class="item">Python</div>
-                          <div class="item">Clojure</div>
+                          <div class="item">Docker</div>
                           <div class="item">Bash</div>
-                          <div class="item">PHP</div>
+                          <div class="item">Functional Programming</div>
                         </div>
                       </div>
                       <div class="ui segment">
                         <div class="ui divided list">
                           <div class="item">Responsive Web Design</div>
-                          <div class="item">CSS & Sass</div>
+                          <div class="item">HTML, CSS & Sass</div>
                           <div class="item">Web Scraping</div>
-                          <div class="item">Bower</div>
-                          <div class="item">Amazon Web Services & S3 Buckets</div>
-                          <div class="item">Deployment</div>
+                          <div class="item">Agile Workflow</div>
+                          <div class="item">Amazon Web Services</div>
                           <div class="item">Photoshop & Lightroom</div>
                         </div>
                       </div>
@@ -106,6 +104,30 @@
                           <div class="item">LoDash</div>
                           <div class="item">jQuery & jQueryUI</div>
                           <div class="item">Cheerio</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ui left aligned technical-view python" style="display: none;">
+                    <h3 class="ui header">
+                      <img class="ui image" src="/assets/images/python.png">
+                      <div class="content">Python</div>
+                    </h3>
+                    <div class="ui horizontal segments">
+                      <div class="ui segment">
+                        <div class="ui divided list">
+                          <div class="item">Django</div>
+                          <div class="item">Pyenv</div>
+                          <div class="item">Numpy</div>
+                          <div class="item">Pandas</div>
+                        </div>
+                      </div>
+                      <div class="ui segment">
+                        <div class="ui divided list">
+                          <div class="item">Flask</div>
+                          <div class="item">Beautiful Soup</div>
+                          <div class="item">Bokeh</div>
+                          <div class="item">Anaconda</div>
                         </div>
                       </div>
                     </div>
@@ -143,6 +165,9 @@
                     <a class="item" title="js">
                       JavaScript
                     </a>
+                    <a class="item" title="python">
+                      Python
+                    </a>
                     <a class="item" title="ruby">
                       Ruby
                     </a>
@@ -153,59 +178,59 @@
 
             <div class="projects content-view" style="display:none;">
               <div class="ui huge middle aligned divided list">
-                <div class="ui item">
+                <div class="ui item middle aligned">
                   <div class="right floated content">
-                    <div class="ui icon button">
+                    <div class="ui fluid button">
                       <a href="https://github.com/ezraez/sudden_death_api"><i class="large github icon"></i></a>
                     </div>
                   </div>
                   <img class="ui avatar image" src="/assets/images/projects/basketball.png">
                   <div class="content">
-                    <a href="http://fast-chamber-70325.herokuapp.com/api"><strong>JAMN API</strong></a> - NodeJS backend for basketball app. <small>(WIP)</small>
+                    <a href="http://fast-chamber-70325.herokuapp.com/api"><strong>JAMN API</strong></a><span class="app-description"> - NodeJS backend for basketball app.</span><small> (WIP)</small>
                   </div>
                 </div>
-                <div class="ui item">
+                <div class="ui item middle aligned">
                   <div class="right floated content">
-                    <div class="ui icon button">
+                    <div class="ui fluid button">
                       <a href="https://github.com/ezRAez/reversi"><i class="large github icon"></i></a>
                     </div>
                   </div>
                   <img class="ui avatar image" src="/assets/images/projects/reversi.png">
                   <div class="content">
-                    <a href="https://ezraez.github.io/reversi"><strong>Reversi</strong></a> - An in browser game with complex logic.
+                    <a href="https://ezraez.github.io/reversi"><strong>Reversi</strong></a><span class="app-description"> - An in browser game with complex logic.</span>
                   </div>
                 </div>
-                <div class="item">
+                <div class="ui item middle aligned">
                   <div class="right floated content">
-                    <div class="ui icon button">
+                    <div class="ui fluid button">
                       <a href="https://github.com/ezRAez/derrys_fishin_friends"><i class="large github icon"></i></a>
                     </div>
                   </div>
                   <img class="ui avatar image" src="/assets/images/projects/derry.jpg">
                   <div class="content">
-                    <a href="https://enigmatic-mesa-72649.herokuapp.com/#/"><strong>Uncle Derry's Fishin' Friends</strong></a> - A comical MEAN App.
+                    <a href="https://enigmatic-mesa-72649.herokuapp.com/#/"><strong>Uncle Derry's Fishin' Friends</strong></a><span class="app-description"> - A comical MEAN App.</span>
                   </div>
                 </div>
-                <div class="item">
+                <div class="ui item middle aligned">
                   <div class="right floated content">
-                    <div class="ui icon button">
+                    <div class="ui fluid button">
                       <a href="https://github.com/ezRAez/useless_comix"><i class="large github icon"></i></a>
                     </div>
                   </div>
                   <img class="ui avatar image" src="/assets/images/projects/useless.jpg">
                   <div class="content">
-                    <a href="https://obscure-earth-62654.herokuapp.com/"><strong>Useless Comix</strong></a> - A webcomic riding on Ruby on Rails. <small>(WIP)</small>
+                    <a href="https://obscure-earth-62654.herokuapp.com/"><strong>Useless Comix</strong></a><span class="app-description"> - A webcomic riding on Ruby on Rails.</span><small> (WIP)</small>
                   </div>
                 </div>
-                <div class="item">
+                <div class="ui item middle aligned">
                   <div class="right floated content">
-                    <div class="ui icon button">
+                    <div class="ui fluid button">
                       <a href="https://github.com/ezRAez/xanthic_ochre"><i class="large github icon"></i></a>
                     </div>
                   </div>
                   <img class="ui avatar image" src="/assets/images/projects/xanthic_ochre.png">
                   <div class="content">
-                    <a href="https://ezraez.github.io/xanthic_ochre"><strong>Xanthic && Ochre</strong></a> - Tic Tac Toe with a minimalist design.
+                    <a href="https://ezraez.github.io/xanthic_ochre"><strong>Xanthic && Ochre</strong></a><span class="app-description"> - Tic Tac Toe with a minimalist design.</span>
                   </div>
                 </div>
               </div>
@@ -215,8 +240,8 @@
 
               <div class="ui grid">
                 <div class="row">
-                  <div class="five wide column">
-                    <div class="ui segment circular inverted red rounded middle aligned">
+                  <div class="five wide column middle aligned">
+                    <div class="ui segment circular inverted red rounded">
                       <image class="ui centered fluid circular image middle aligned" src="https://avatars1.githubusercontent.com/u/12765592?v=3&s=460"></image>
                     </div>
                   </div>
